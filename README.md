@@ -1,30 +1,42 @@
 # machine_learning
 ## Cursos de machine learning
 
-Laboratório de machine learning /br
-(https://portal.azure.com)
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configurações do Azure ML</title>
+</head>
+<body>
 
-1- Criar um novo recursos e no buscar digitar machine learning e criar 
-2- Escolher um grupo de recursos se não tiver criar 
-3- Preencher os campos como o nome que não pode ter espaço, a refião e o restante das informações manter 
-4- Na barra superior escolher examinar-criar que irá validar as informaçãoes e depois clicar em criar.
-5- Ir para o recurso e definir o tipo de ativo de dado.
-6- Escolher lunch studio
-7- Do lado esquerdo escolher Ml automatizado e novo trabalho automatizado e criar
-8- Em Ml preencher as configurações básicas e avançar 
-9- Escolher tipo de tarefa "Regressão" e criar
-10- Definir  o nome, tipo de ativo de dados, descrição, e tipo "tabular" e avançar
-11- Escolher arquivos da Web e avançar
-12- Colocar a URL dos dados e avançar
-13- Nas configurações escolher a opção "Somente o primeiro arquivo tem cabeçalho
-14- Examinar e depois criar
-15- Em configurações de tarefa escolher a coluna de destino
-16- Em Exibir definições de configuração desmarcar todas as opções e em modelos permitidos selecionar RandomForest e lightGBM
-17-  Avançar e conferir e avançar novamente e enviar trabalho de treinamento e aguardar a execução
-18- Validar o experimento e selecionar modelo cliecando em +Registro e configurar
-19- Em modelos é possivel obter muitas informações como métricas.
-20 - Em posntos de extremidades, configurar e testar:
+<h2>Laboratório de Machine Learning</h2>
+<p><a href="https://portal.azure.com">https://portal.azure.com</a></p>
 
+<ol>
+  <li>Criar um novo recurso e na barra de busca digitar "machine learning" e criar.</li>
+  <li>Escolher um grupo de recursos. Se não houver, criar um.</li>
+  <li>Preencher os campos necessários como nome (sem espaços), região e outras informações solicitadas.</li>
+  <li>Na barra superior, escolher "Examinar-Criar" para validar as informações e, em seguida, clicar em "Criar".</li>
+  <li>Ir para o recurso e definir o tipo de ativo de dados.</li>
+  <li>Escolher "Launch Studio".</li>
+  <li>Do lado esquerdo, escolher "ML automatizado" e "Novo trabalho automatizado" e criar.</li>
+  <li>Em "ML", preencher as configurações básicas e avançar.</li>
+  <li>Escolher o tipo de tarefa como "Regressão" e criar.</li>
+  <li>Definir o nome, tipo de ativo de dados, descrição e tipo como "Tabular", e avançar.</li>
+  <li>Escolher "Arquivos da Web" e avançar.</li>
+  <li>Colocar a URL dos dados e avançar.</li>
+  <li>Nas configurações, escolher a opção "Somente o primeiro arquivo tem cabeçalho".</li>
+  <li>Examinar e depois criar.</li>
+  <li>Em configurações de tarefa, escolher a coluna de destino.</li>
+  <li>Em "Exibir definições de configuração", desmarcar todas as opções e, em "Modelos permitidos", selecionar "RandomForest" e "lightGBM".</li>
+  <li>Avançar e conferir, e avançar novamente e enviar o trabalho de treinamento e aguardar a execução.</li>
+  <li>Validar o experimento e selecionar o modelo clicando em "+Registro" e configurar.</li>
+  <li>Em "Modelos", é possível obter muitas informações como métricas.</li>
+  <li>Em "Pontos de extremidades", configurar e testar:</li>
+</ol>
+
+<pre>
 {
   "input_data": {
     "columns": [
@@ -45,4 +57,9 @@ Laboratório de machine learning /br
     "data": []
   }
 }
+</pre>
+
+</body>
+</html>
+
 
