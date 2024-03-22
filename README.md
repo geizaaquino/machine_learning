@@ -1,7 +1,7 @@
 # machine_learning
 ## Cursos de machine learning
 
-Laboratório de machine learning
+Laboratório de machine learning /br
 (https://portal.azure.com)
 
 1- Criar um novo recursos e no buscar digitar machine learning e criar 
